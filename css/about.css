@@ -34,3 +34,13 @@ teal: #4cc9f0 */
         width: 100vw;
     }
 }
+
+#return {
+    text-decoration: none;
+    color: #3a0ca3;
+}
+
+#return:hover {
+    color: #7209b7;
+    text-decoration: wavy underline 2px #7209b7;
+}
