@@ -24,12 +24,14 @@ body {
     margin-bottom: 50%;
 }
 
+
 #name-button {
     color: white;
-    font-size: 150px;
+    font-size: 10em;
     text-decoration: none;
     border: 4px solid white;
-    padding: 10px 20px
+    padding: 10px 20px;
+    width: 80vw;
 }
 
 #name-button:hover {
@@ -37,4 +39,28 @@ body {
     box-shadow: 0 0.5em 0.5em -0.4em #4361ee;
     transform: translateY(-0.15em);
     transition: all 0.2s;
+}
+
+@media (min-width: 350px) and (max-width: 520px) {
+    #name-button {
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 650px) {
+    #name-button {
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+    #name-button {
+        font-size: 8em;
+    }
+}
+
+@media (min-width: 1000px) {
+    #name-button {
+        font-size: 10em;
+    }
 }
