@@ -28,11 +28,12 @@ ul {
     border: 4px solid #3a0ca3;
 }
 
-/* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    width: 100%;
-    margin-bottom: 50%; */
+.menu-item {
+    text-decoration: none;
+    color: #3a0ca3;
+}
+
+.menu-item:hover {
+    color: #7209b7;
+    text-decoration: wavy underline 2px #7209b7;
+}

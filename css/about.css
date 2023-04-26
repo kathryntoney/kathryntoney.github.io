@@ -1,0 +1,27 @@
+/* hot pink: #f72585
+purple: #7209b7
+dark purple: #3a0ca3
+blue: #4361ee
+teal: #4cc9f0 */
+/* font-family: 'Poppins', sans-serif; */
+
+#my-pic {
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #7209b7;
+    background-color: rgb(67, 97, 238, 0.3);
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    /* min-height: 100vh; */
+    width: 50vw;
+}
