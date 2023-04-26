@@ -59,7 +59,7 @@ body {
     }
 }
 
-@media (min-width: 1000px) {
+@media (m-width: 1000px) {
     #name-button {
         font-size: 10em;
     }
