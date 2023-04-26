@@ -6,22 +6,31 @@ teal: #4cc9f0 */
 /* font-family: 'Poppins', sans-serif; */
 
 #my-pic {
+    background-image: url('../images/kt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
+@media (max-width: 600px) {
+    #my-pic {
+        display: none;
+    }
 }
 
 #about-me {
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #7209b7;
     background-color: rgb(67, 97, 238, 0.3);
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    /* min-height: 100vh; */
-    width: 50vw;
+    min-height: 100vh;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+    #about-me {
+        width: 100vw;
+    }
 }
